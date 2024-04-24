@@ -5,9 +5,7 @@ Imports PuppeteerSharp
 
 Module Program
     Sub Main()
-        ' Call the asynchronous method and block until it completes.
         MainAsync().GetAwaiter().GetResult()
-        Console.WriteLine("Press any key to exit...")
         Console.ReadKey()
     End Sub
 
